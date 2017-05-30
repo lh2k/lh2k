@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "914814559005",
+    "firebase_url": "https://lh2k-b8ba5.firebaseio.com",
+    "project_id": "lh2k-b8ba5",
+    "storage_bucket": "lh2k-b8ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914814559005:android:587b4524edd1a26b",
+        "android_client_info": {
+          "package_name": "kr.ac.hansung.lh2k_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914814559005-0u3dvb09gme69bvj2o42kuoft127cssp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.hansung.lh2k_project",
+            "certificate_hash": "a87478f0145cf0dcc7d16133bb6c39defce5ed9c"
+          }
+        },
+        {
+          "client_id": "914814559005-mhpbfi3gp7fl2p0kkn8l72q9rm4jlee3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.hansung.lh2k_project",
+            "certificate_hash": "97ebdc68de28a03aa9b53e4ecb7f322a5b9370e2"
+          }
+        },
+        {
+          "client_id": "914814559005-1tbbgn7fgklk6jrofbgnfgmgld7pnvf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw8UBvAgXlM4g-ONliXDBy3jI0ArTXMJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914814559005-1tbbgn7fgklk6jrofbgnfgmgld7pnvf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

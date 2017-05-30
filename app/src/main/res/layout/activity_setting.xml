@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="170dp"
+    android:layout_height="match_parent"
+    android:background="#fffae8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fffae8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:background="#ecce80">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="13dp"
+                android:layout_gravity="center"
+                android:background="@drawable/slide_btn_home"/>
+
+            <Button
+                android:id="@+id/btn_Home"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="메인화면"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:padding="10dp"
+                android:background="#ecce80"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="#ecce80"
+            android:layout_marginTop="2dp">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="13dp"
+                android:layout_gravity="center"
+                android:background="@drawable/slide_btn_adduser"/>
+            <Button
+                android:id="@+id/btn_setUsers"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="위치공유"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:padding="10dp"
+                android:background="#ecce80"
+                android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="#ecce80"
+            android:layout_marginTop="2dp">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="13dp"
+                android:layout_gravity="center"
+                android:background="@drawable/slide_btn_help"/>
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="도움말"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:padding="10dp"
+                android:background="#ecce80"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:background="#ecce80">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="13dp"
+                android:layout_gravity="center"
+                android:background="@drawable/slide_btn_setup"/>
+            <Button
+                android:id="@+id/btn_setUp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="설정하기"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:padding="10dp"
+                android:background="#ecce80"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:background="#ecce80">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/slide_btn_exit"/>
+            <Button
+                android:id="@+id/btn_sysExit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="종료하기"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:padding="10dp"
+                android:background="#ecce80"
+                android:layout_weight="1"/>
+            </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

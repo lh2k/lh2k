@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="kr.ac.hansung.lh2k_project.MainActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.viralandroid.googlemapsandroidapi.MapsActivity" />
+
+    <ImageButton
+        android:id="@+id/btn_slide_menu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="Slide Menu"
+        android:layout_alignParentRight="true"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/main_slide_menu_btn"/>
+
+    <Button
+        android:id="@+id/btn_112"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/main_btn_112"/>
+
+    <ToggleButton
+        android:id="@+id/tg_show_cctv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_cctv_icon_image"
+        android:textOn=""
+        android:textOff="" />
+
+    <ToggleButton
+        android:id="@+id/tg_show_police"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/tg_show_cctv"
+        android:background="@drawable/btn_plice_icon_image"
+        android:textOn=""
+        android:textOff=""/>
+
+    <Button
+        android:id="@+id/fakecall"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="onFakeCallClicked"
+        android:background="@drawable/main_btn_fakecall"/>
+
+</RelativeLayout>

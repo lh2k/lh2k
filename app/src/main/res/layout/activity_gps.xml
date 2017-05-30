@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치공유를 원하는 사용자계정을 입력해주세요."
+        android:textColor="@color/com_facebook_blue"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/shared_gps_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/com_facebook_blue"
+            android:hint="xxxx@gmail.com"/>
+
+        <Button
+            android:id="@+id/shared_gps_btn_ok"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/basic_btn_img"
+            android:textColor="#FFFFFF"
+            android:text="요청"
+            android:textStyle="bold"
+            android:onClick="mOnClick"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_errorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:textSize="12dp"
+        android:textColor="#ea2d2d"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 등록된 사용자계정 목록"
+        android:textStyle="bold"
+        android:textColor="@color/com_facebook_blue"/>
+    <ListView
+        android:id="@+id/shared_user_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+
+        <Button
+            android:id="@+id/btn_goHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="mOnClick"
+            android:background="@drawable/basic_back_btn_img"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_shared_user_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/basic_btn_img"
+            android:text="삭제"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:onClick="mOnClick"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+</LinearLayout>
